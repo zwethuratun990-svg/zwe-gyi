@@ -5,12 +5,73 @@ HTML
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>အချစ်ဝတ္ထု - နေဝင်ချိန်အမှတ်တရ</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        body {
+            background-color: #f4ede4;
+            font-family: 'Pyidaungsu', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 380px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            margin: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .tag {
+            background: #e07a5f;
+            color: white;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .title {
+            color: #2b2d42;
+            font-size: 22px;
+            margin: 12px 0 8px 0;
+        }
+
+        .story-text {
+            color: #4a4e69;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .author-box {
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+            font-size: 12px;
+            color: #8d99ae;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
 
     <div class="card">
         <div class="image-container">
+            <!-- ပုံဖိုင်နာမည် love_story.jpg ကို HTML ဖိုင်ရှိသည့်နေရာထဲတွင် ထည့်ထားပေးပါ -->
             <img src="love_story.jpg" alt="အချစ်ဝတ္ထုပုံရိပ်">
         </div>
         <div class="content">
@@ -20,12 +81,10 @@ HTML
                 "ညနေခင်း နေမင်းကြီး သောင်ပြင်ပေါ် သက်ဆင်းချိန်မှာတော့... ခရမ်းရောင် သန်းနေတဲ့ မိုးကောင်းကင်အောက်မှာ သူမရဲ့ အပြုံးက ပိုလို့တောင် တောက်ပနေခဲ့တယ်။ ရှေးဟောင်းတံတားထက်မှာ ဆုံစည်းခဲ့တဲ့ ဒီအချိန်လေးဟာ ငါတို့နှစ်ယောက်လုံးရဲ့ ဘဝအတွက် မေ့မရနိုင်တဲ့ သမိုင်းဝင် အခိုက်အတန့်တစ်ခု ပေါ့..."
             </p>
             <div class="author-box">
-                <span>
+                <span>ရေးသူ - မြန်မာ့အချစ်ဇာတ်လမ်းများ</span>
             </div>
         </div>
     </div>
 
 </body>
 </html>
-
-
